@@ -3,7 +3,7 @@
     font-size: 15px;
 }
 body{
-    background-image: url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-top-desktop.svg), url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-bottom-desktop.svg);
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
 }
@@ -122,7 +122,7 @@ header p {
         font-size: 0.92rem;
     }
     body{
-        background-image: url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-top-desktop.svg), url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-bottom-desktop.svg);
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
         background-position: left top, right bottom;
         background-repeat: no-repeat, no-repeat;
         
