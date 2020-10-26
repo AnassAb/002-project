@@ -1,0 +1,248 @@
+*{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+body{
+    background-image: url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-top-desktop.svg), url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+main {
+    margin: 6% 12%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 50%;
+}
+#reviews-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+h1{
+    font-size: 45px;
+    margin-bottom:0;
+    color: hsl(300, 43%, 22%);
+}
+header p {
+    color: hsl(303, 10%, 53%);
+}
+.reviews {
+    display: flex;
+    width: 400px;
+    padding:15px;
+    padding-left: 30px;
+    margin: 10px 0px 5px 0;
+    border-radius: 7px;
+    color:hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+}
+.reviews span{
+    display: inline-block;
+    padding-left: 7px;
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.stars img {
+    padding-right: 10px;
+}
+#item1 {
+    align-self: flex-start;
+}
+#item2 {
+    align-self: center;
+}
+#item3 {
+    align-self: flex-end;
+}
+
+#container-testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 270px;
+}
+.testimonials {
+    width: max-content;
+    margin: 7px;
+    padding: 25px 18px;
+    border-radius: 9px;
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+}
+.testimonials img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    border-radius: 100%;
+}
+.testimonials div{
+    display: inline-block ;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.testimonials h2{
+    font-size: 12px;
+   margin-bottom: 6px;
+}
+.testimonials h3{
+    font-size: 12px;
+    margin-top: 6px;
+    color:hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.testimonials p {
+    font-size:13px;
+    line-height: 1.7;
+}
+#testi1 {
+    align-self: flex-start;
+}
+#testi2 {
+    align-self: center;
+}
+#testi3 {
+    align-self: flex-end;
+}
+@media (max-width:500px){
+    *{
+        font-family: 'Spartan', sans-serif;
+        font-size: 0.92rem;
+    }
+    body{
+        background-image: url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-top-desktop.svg), url(file:///C:/Users/hp/Desktop/Challenge-002/images/bg-pattern-bottom-desktop.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+        
+    }
+    main {
+        margin: 60px 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #headerText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-self: center;
+        width: 95%;
+        height: auto;
+    }
+    #reviews-container {
+        display:flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        width: fit-content;
+    }
+    h1{
+        font-size: 30px;
+        margin-bottom:0;
+        color: hsl(300, 43%, 22%);
+    }
+    header p {
+        color: hsl(303, 10%, 53%);
+    }
+    .reviews {
+        display: block;
+        width: 95%;
+        padding:15px;
+        padding-left: 30px;
+        margin: 10px 0px 5px 0;
+        border-radius: 7px;
+        color:hsl(300, 43%, 22%);
+        background-color: hsl(300, 24%, 96%);
+    }
+    .reviews span{
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+        margin: auto auto;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .stars{
+        display: block;
+        margin: auto ;
+        padding-bottom: 4%  ;
+        text-align: center;
+    }
+    .stars img {
+        padding-right: 10px;
+    }
+    #item1 {
+        align-self: center;
+    }
+    #item2 {
+        align-self: center;
+    }
+    #item3 {
+        align-self: center;
+    }
+    
+    #container-testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+        height: fit-content;
+    }
+    .testimonials {
+        width: 85%;
+        margin: 7px;
+        padding: 25px 18px;
+        border-radius: 9px;
+        color: white;
+        background-color: hsl(300, 43%, 22%);
+    }
+    .testimonials img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 45px;
+        border-radius: 100%;
+    }
+    .testimonials div{
+        display: inline-block ;
+        vertical-align: middle;
+        padding-left: 20px;
+    }
+    .testimonials h2{
+        font-size: 12px;
+       margin-bottom: 6px;
+    }
+    .testimonials h3{
+        font-size: 12px;
+        margin-top: 6px;
+        color:hsl(333, 80%, 67%);
+        font-weight: 400;
+    }
+    .testimonials p {
+        font-size:13px;
+        line-height: 1.7;
+    }
+    #testi1 {
+        align-self: center;
+    }
+    #testi2 {
+        align-self: center;
+    }
+    #testi3 {
+        align-self: center;
+    }
+}
